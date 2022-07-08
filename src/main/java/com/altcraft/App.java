@@ -1,5 +1,8 @@
 package com.altcraft;
 
+import com.altcraft.models.CounterResponceModel;
+import com.altcraft.models.WorkflowNumberRequestModel;
+import com.altcraft.models.WorkflowNumberResponseModel;
 import com.altcraft.utils.Counter;
 import com.google.gson.Gson;
 import org.apache.log4j.Logger;

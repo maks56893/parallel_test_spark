@@ -1,4 +1,4 @@
-package com.altcraft;
+package com.altcraft.models;
 
 
 public class WorkflowNumberResponseModel {

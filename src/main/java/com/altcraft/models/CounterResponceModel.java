@@ -1,4 +1,4 @@
-package com.altcraft;
+package com.altcraft.models;
 
 import com.google.gson.annotations.SerializedName;
 
