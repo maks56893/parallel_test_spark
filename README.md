@@ -10,8 +10,7 @@ url /workflow_write подсчитывает количество запросо
 ответ
 
     {
-        "workflow_one_counter": int,
-        "workflow_two_counter": int,
+        "status": string
     }
     
 
@@ -20,7 +19,7 @@ url /get_counter возвращает значения счетчика.
 запрос get без тела
 
 ответ
-`     {
-         "workflow_number": int
-         "reset_counter": bool
-     }`
+`   {
+        "workflow_one_counter": int,
+        "workflow_two_counter": int,
+    }`
