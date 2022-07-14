@@ -4,10 +4,10 @@ import com.google.gson.annotations.SerializedName;
 
 public class CounterResponceModel {
     /**
-     получаем id кампании в json
+     получаем значения счетчика
      {
-     "workflow_number": int
-     "reset_counter": bool
+     "workflow_one_counter": int
+     "workflow_two_counter": int
      }
      **/
 
