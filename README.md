@@ -2,10 +2,10 @@ url /workflow_write подсчитывает количество запросо
 Флаг "reset_counter" используется для сброса подсчета. 
 
 запрос post
-    {
+`    {
         "workflow_number": int
         "reset_counter": bool
-    }
+    }`
 
 ответ
 
@@ -20,7 +20,7 @@ url /get_counter возвращает значения счетчика.
 запрос get без тела
 
 ответ
-     {
+`     {
          "workflow_number": int
          "reset_counter": bool
-     }
+     }`
